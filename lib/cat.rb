@@ -6,9 +6,7 @@ class Cat
     @name = name
   end
 
-  def self.name
-    @name
-  end
+
 
 
 end
