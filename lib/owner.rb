@@ -6,7 +6,7 @@ class Owner
 
   @@all = []
   @@owners_count = 0
-  @@pets = {:fishes => [], :dogs => [], :cats => []} 
+  @@pets = {:fishes => [], :dogs => [], :cats => []}
 
   def initialize(name)
     @name = name
@@ -33,6 +33,9 @@ class Owner
     "I am a #{@species}."
   end
 
+  def pets
+    @@pets
+  end 
 
 
 
