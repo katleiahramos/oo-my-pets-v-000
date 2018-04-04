@@ -19,7 +19,6 @@ class Owner
   end
 
   def self.count
-    @@all 
     @@owners_count
   end
 
