@@ -6,7 +6,6 @@ class Owner
 
   @@all = []
   @@owners_count = 0
-  @
 
   def initialize(name)
     @name = name
@@ -27,7 +26,7 @@ class Owner
 
   def self.count
     #binding.pry
-    @@owners_count
+    @@all.count 
   end
 
   def say_species
