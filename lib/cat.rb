@@ -1,10 +1,14 @@
 class Cat
 
-  attr_accessor 
+  
 
   def initialize(name)
     @name = name
   end
+
+  def self.name
+    @name
+  end 
 
 
 end
