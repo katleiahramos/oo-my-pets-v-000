@@ -75,7 +75,7 @@ class Owner
       pets.each do |pet|
         pet.mood = "nervous"
       end
-      binding.pry
+      self.pets.each {|species, pets| self.pets[species].clear}
     end
   end
 
