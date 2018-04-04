@@ -82,8 +82,12 @@ class Owner
 
   def list_pets
     binding.pry
+    num_cats = self.pets[:cats].count 
+    num_dogs =
+    num_fish = 
+    puts "I have "
   end
-  
+
 
 
 
