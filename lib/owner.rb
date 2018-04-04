@@ -75,9 +75,8 @@ class Owner
       pets.each do |pet|
         pet.mood = "nervous"
       end
+      pets = [] 
     end
-    return self.pets
-    self.pets.each {|type, pets| pets = []}
   end
 
 
