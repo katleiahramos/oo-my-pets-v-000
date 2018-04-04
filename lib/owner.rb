@@ -72,7 +72,7 @@ class Owner
     #binding.pry
     pets.each do |species,pets|
       pets.each do |pet|
-        pet.mood == "nervous"
+        pet.mood = "nervous"
         pets.clear
       end
     end
