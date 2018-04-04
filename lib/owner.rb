@@ -41,7 +41,7 @@ class Owner
     fish = Fish.new(name)
     @@pets[:fish] = fish
     binding.pry
-  end 
+  end
 
 
 
