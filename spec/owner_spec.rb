@@ -15,6 +15,7 @@ describe Owner do
     it "can count how many owners have been created" do
       Owner.reset_all
       Owner.new("human")
+      binding.pry
       expect(Owner.count).to eq(1)
     end
 
