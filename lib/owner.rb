@@ -77,7 +77,7 @@ class Owner
         pet.mood = "nervous"
       end
     end
-    return self.pets 
+    return self.pets
     self.pets.each {|species, pets| self.pets[species].clear}
   end
 
