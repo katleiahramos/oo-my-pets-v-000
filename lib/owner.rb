@@ -19,6 +19,7 @@ class Owner
   end
 
   def self.count
+    binding.pry
     @@owners_count
   end
 
