@@ -74,7 +74,7 @@ class Owner
     self.pets.each do |species,pets|
       pets.each do |pet|
         pet.mood = "nervous"
-      end 
+      end
     end
     self.pets.clear
   end
