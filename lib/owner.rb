@@ -11,7 +11,6 @@ class Owner
     @name = name
     @species = "human"
     @@all << self
-
     @pets = {:fishes => [], :dogs => [], :cats => []}
   end
 
@@ -25,7 +24,7 @@ class Owner
 
   def self.count
     #binding.pry
-    @@all.length 
+    @@all.length
   end
 
   def say_species
