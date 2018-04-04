@@ -88,7 +88,7 @@ class Owner
     num_cats = self.pets[:cats].count
     num_dogs = self.pets[:dogs].count
     num_fish = self.pets[:fishes].count
-    puts "I have #{num_fish} fish, #{num_dogs} dog(s), and #{num_cats} cat(s). "
+    "I have #{num_fish} fish, #{num_dogs} dog(s), and #{num_cats} cat(s). "
   end
 
 
