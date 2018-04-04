@@ -72,7 +72,7 @@ class Owner
     #binding.pry
     pets.each do |species,pets|
       pets.each do |pet|
-        pet.mood = "nervous"
+        pet.mood == "nervous"
         pets.clear
       end
     end
@@ -84,7 +84,7 @@ class Owner
     num_cats = self.pets[:cats].count
     num_dogs = self.pets[:dogs].count
     num_fish = self.pets[:fishes].count
-    "I have #{num_fish} fish, #{num_dogs} dog(s), and #{num_cats} cat(s). "
+    "I have #{num_fish} fish, #{num_dogs} dog(s), and #{num_cats} cat(s)."
   end
 
 
