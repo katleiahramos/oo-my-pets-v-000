@@ -69,7 +69,7 @@ class Owner
   end
 
   def sell_pets
-    binding.pry
+    #binding.pry
     self.pets.each do |species,pets|
       pets.each do |pet|
         pet.mood = "nervous"
@@ -80,7 +80,7 @@ class Owner
 
 
   def list_pets
-    binding.pry
+    #binding.pry
     num_cats = self.pets[:cats].count
     num_dogs = self.pets[:dogs].count
     num_fish = self.pets[:fishes].count
