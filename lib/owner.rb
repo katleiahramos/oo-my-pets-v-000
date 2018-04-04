@@ -10,4 +10,7 @@ class Owner
     @@owners_count += 1
   end
 
+  def all 
+    @@all
+  end 
 end
