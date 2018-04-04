@@ -3,10 +3,11 @@ class Owner
 
   @@owners = []
   @@owners_count = 0
+  
   def initialize(name)
     @name = name
-    @@owners << self 
-    @@owners_count += 1 
+    @@owners << self
+    @@owners_count += 1
   end
 
 end
