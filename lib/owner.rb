@@ -77,7 +77,7 @@ class Owner
       end
     end
     return self.pets
-    self.pets.clear 
+    self.pets.each {|type, pets| pets = []}
   end
 
 
