@@ -76,6 +76,7 @@ class Owner
         pet.mood = "nervous"
       end 
     end
+    self.pets.clear
   end
 
 
