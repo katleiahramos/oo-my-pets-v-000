@@ -1,4 +1,5 @@
 require_relative 'spec_helper.rb'
+reuire 'pry'
 
 describe Owner do
 
