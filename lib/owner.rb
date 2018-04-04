@@ -26,7 +26,7 @@ class Owner
 
   def self.count
     #binding.pry
-    @@all.count 
+    @@all.length 
   end
 
   def say_species
