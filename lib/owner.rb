@@ -6,7 +6,7 @@ class Owner
 
   def initialize(name)
     @name = name
-    @@owners << self
+    @@all << self
     @@owners_count += 1
   end
 
