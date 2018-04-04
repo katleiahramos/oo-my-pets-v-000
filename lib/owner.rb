@@ -1,5 +1,5 @@
 class Owner
-  attr_accessor :name, :owners, :owners_count
+  attr_accessor :name, :all, :owners_count
 
   @@all = []
   @@owners_count = 0
