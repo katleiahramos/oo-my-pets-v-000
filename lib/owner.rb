@@ -5,6 +5,7 @@ class Owner
   @@owners_count = 0 
   def initialize(name)
     @name = name
-  end 
+    owners_count += 1 
+  end
 
 end
