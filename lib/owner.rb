@@ -28,5 +28,9 @@ class Owner
     @@owners_count
   end
 
+  def say_species
+    "I am a #{@species}"
+  end 
+
 
 end
