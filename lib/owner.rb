@@ -76,6 +76,7 @@ class Owner
         pets.clear
       end
     end
+    pets 
   end
 
 
