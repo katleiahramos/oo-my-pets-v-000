@@ -9,6 +9,7 @@ class Owner
 
   def initialize(name)
     @name = name
+    @species = "human"
     @@all << self
     @@owners_count += 1
   end
