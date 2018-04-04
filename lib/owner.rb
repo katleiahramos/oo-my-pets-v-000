@@ -1,11 +1,12 @@
 require 'pry'
 
 class Owner
-  attr_accessor :name, :all, :owners_count
+  attr_accessor :name, :all, :owners_count, :pets 
   attr_reader :species
 
   @@all = []
   @@owners_count = 0
+  @@pets = {} 
 
   def initialize(name)
     @name = name
@@ -31,6 +32,8 @@ class Owner
   def say_species
     "I am a #{@species}."
   end
+
+  
 
 
 end
